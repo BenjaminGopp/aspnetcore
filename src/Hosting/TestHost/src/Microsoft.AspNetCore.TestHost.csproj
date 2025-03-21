@@ -15,5 +15,6 @@
 
   <ItemGroup>
     <InternalsVisibleTo Include="Microsoft.AspNetCore.TestHost.Tests" />
+    <InternalsVisibleTo Include="Microsoft.AspNetCore.Hybrid" />
   </ItemGroup>
 </Project>

@@ -9,10 +9,16 @@
     <IsPackable>true</IsPackable>
     <IsTrimmable>true</IsTrimmable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeReferencedProjects>true</IncludeReferencedProjects>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <NoWarn>CS1574;RS0016;RS0037;IDE0005;IDE0073;IDE2000;CS1591</NoWarn>
+    <NoError>CS1574;RS0016;RS0037;IDE0005;IDE0073;IDE2000;CS1591</NoError>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Microsoft.AspNetCore.Antiforgery" />
+    <Reference Include="Microsoft.AspNetCore.Antiforgery"/>
     <Reference Include="Microsoft.AspNetCore.Authentication.Abstractions" />
     <Reference Include="Microsoft.AspNetCore.Authentication.BearerToken" />
     <Reference Include="Microsoft.AspNetCore.Authentication.Cookies" />
@@ -147,5 +153,6 @@
     <Reference Include="Microsoft.AspNetCore.TestHost" />
     
   </ItemGroup>
+
 
 </Project>

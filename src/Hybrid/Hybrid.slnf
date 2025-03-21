@@ -93,7 +93,8 @@
 "src\\WebEncoders\\src\\Microsoft.Extensions.WebEncoders.csproj",
 "src\\JSInterop\\Microsoft.JSInterop\\src\\Microsoft.JSInterop.csproj",
 "src\\Http\\Headers\\src\\Microsoft.Net.Http.Headers.csproj",
-"src\\Hosting\\TestHost\\src\\Microsoft.AspNetCore.TestHost.csproj"
+"src\\Hosting\\TestHost\\src\\Microsoft.AspNetCore.TestHost.csproj",
+"src\\Hybrid\\Microsoft.AspNetCore.Hybrid\\Microsoft.AspNetCore.Hybrid.csproj"
     ]
   }
 }
